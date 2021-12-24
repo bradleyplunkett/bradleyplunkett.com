@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bradleyplunkett.com/static/css/main.502d0a39.css",
-    "main.js": "/bradleyplunkett.com/static/js/main.cb77a8d0.js",
+    "main.css": "/bradleyplunkett.com/static/css/main.073c9b0a.css",
+    "main.js": "/bradleyplunkett.com/static/js/main.bc1a7edb.js",
     "static/js/787.9b9c0edf.chunk.js": "/bradleyplunkett.com/static/js/787.9b9c0edf.chunk.js",
     "static/media/logo.svg": "/bradleyplunkett.com/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/bradleyplunkett.com/index.html",
-    "main.502d0a39.css.map": "/bradleyplunkett.com/static/css/main.502d0a39.css.map",
-    "main.cb77a8d0.js.map": "/bradleyplunkett.com/static/js/main.cb77a8d0.js.map",
+    "main.073c9b0a.css.map": "/bradleyplunkett.com/static/css/main.073c9b0a.css.map",
+    "main.bc1a7edb.js.map": "/bradleyplunkett.com/static/js/main.bc1a7edb.js.map",
     "787.9b9c0edf.chunk.js.map": "/bradleyplunkett.com/static/js/787.9b9c0edf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.502d0a39.css",
-    "static/js/main.cb77a8d0.js"
+    "static/css/main.073c9b0a.css",
+    "static/js/main.bc1a7edb.js"
   ]
 }
