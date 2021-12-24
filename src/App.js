@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import WelcomeMessage from './components/welcomeMessage';
+import PlanetComponent from './components/planetComponent';
 
 function App() {
   return (
-    <div>
+    <div className = 'main' >
       <h1>Bradley</h1>
-      <WelcomeMessage></WelcomeMessage>
+      <div className='planet'>
+      <PlanetComponent className = 'planet'></PlanetComponent>
+      </div>
       </div>
   );
 }

@@ -1,5 +1,16 @@
+
 .App {
   text-align: center;
+}
+
+.main {
+  text-align: center;
+  height: 50px;
+}
+
+.planet {
+  display: flex;
+  justify-content: center;
 }
 
 .App-logo {
