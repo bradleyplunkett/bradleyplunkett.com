@@ -12,7 +12,9 @@ class PlanetComponent extends Component {
 						height: 300,
 						width: 300,
 						borderRadius: '50%',
-						backgroundColor: '#FDB813',
+						backgroundColor: 'white', 
+						backgroundImage: "url(" + "http://www.nasa.gov/sites/default/files/canyon-fire_0.jpg" + ")",
+						backgroundSize: 'cover'
 					}}
 				/>
 			}
@@ -30,6 +32,14 @@ class PlanetComponent extends Component {
 				}}
 			/>
 			<div
+				style={{
+					height: 70,
+					width: 70,
+					borderRadius: '50%',
+					backgroundColor: '#dcedff',
+				}}
+			/>
+				<div
 				style={{
 					height: 70,
 					width: 70,
