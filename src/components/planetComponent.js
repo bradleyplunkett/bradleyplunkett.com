@@ -25,26 +25,29 @@ class PlanetComponent extends Component {
 		>
 			<div
 				style={{
-					height: 70,
-					width: 70,
+					height: 100,
+					width: 100,
 					borderRadius: '50%',
 					backgroundColor: '#94b0da',
+					backgroundImage: "url(" + "https://media.istockphoto.com/photos/rocky-surface-picture-id607274254" + ")"
 				}}
 			/>
 			<div
 				style={{
-					height: 70,
-					width: 70,
+					height: 50,
+					width: 50,
 					borderRadius: '50%',
 					backgroundColor: '#dcedff',
+					backgroundImage: "url(" + "https://www.gardeningknowhow.com/wp-content/uploads/2013/06/moss.jpg" + ")"
 				}}
 			/>
 				<div
 				style={{
-					height: 70,
-					width: 70,
+					height: 75,
+					width: 75,
 					borderRadius: '50%',
 					backgroundColor: '#dcedff',
+					backgroundImage: "url(" + "https://s3.envato.com/files/243604517/preview.jpg" + ")"
 				}}
 			/>
 		</Planet>
