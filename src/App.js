@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import PlanetComponent from './components/SunandPlanets';
 
 function App() {
   return (
-    <div className = 'main' >
-      <h1>Bradley</h1>
+    <div className = 'App' >
+      <header className = 'App-header'>
+        <p>Welcome to bradleyplunkett.com</p>
+      </header>
       <div className='planet'>
       <PlanetComponent className = 'planet'></PlanetComponent>
       </div>
