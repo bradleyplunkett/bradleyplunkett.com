@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import PlanetComponent from './components/planetComponent';
+import PlanetComponent from './components/SunandPlanets';
 
 function App() {
   return (
