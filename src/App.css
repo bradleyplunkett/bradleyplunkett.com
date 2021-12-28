@@ -1,12 +1,31 @@
 
 .App {
   text-align: center;
-  height: 50px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 25px;
+  max-height: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: white;
+}
+
+.planetContainer {
+  margin: 0; 
+  height: 100vh;
+  width: 100vw;
+  display: flex;
 }
 
 .planet {
   display: flex;
-  justify-content: center;
+  padding-left: 600px;
+  padding-top: 200px;
 }
 
 .App-logo {
@@ -20,17 +39,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 25px;
-  max-height: 25px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 10px;
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
