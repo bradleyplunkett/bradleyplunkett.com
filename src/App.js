@@ -1,18 +1,10 @@
 import './App.css';
 import PlanetComponent from './components/SunandPlanets';
+import Main from './components/MainComponent';
 
 function App() {
   return (
-    <div className='App' >
-      <header className='App-header'>
-        <p>Welcome </p>
-      </header>
-        <div className = 'planetContainer'>
-        <div className='planet'>
-          <PlanetComponent className='planet'></PlanetComponent>
-        </div>
-      </div>
-    </div>
+ <Main></Main>
   );
 }
 

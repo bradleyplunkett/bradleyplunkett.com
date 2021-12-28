@@ -18,10 +18,13 @@ class PlanetComponent extends Component {
 					}}
 				/>
 			}
-			orbitRadius={240}
+			orbitRadius={260}
 			rotation={0}
 			open
 			autoClose
+			mass={4}
+      tension={500}
+      friction={30}
 		>
 			<div
 				style={{
