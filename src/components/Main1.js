@@ -15,11 +15,12 @@ function Main() {
     return (
         <React.Fragment>
             <Header/>
-            <Switch>
+            <Home/>
+            {/* <Switch>
                 <Route path='/home' component={Home} />
                 <Route path='/portfolio' component={Portfolio} />
                 <Redirect to='/home' />
-            </Switch>
+            </Switch> */}
             <Footer />
         </React.Fragment>)
 }
