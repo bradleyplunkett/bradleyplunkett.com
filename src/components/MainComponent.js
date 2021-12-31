@@ -6,13 +6,11 @@ import Footer from './Footer.js';
 import Portfolio from './Portfolio.js';
 import Home from './Home.js';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom/cjs/react-router-dom.min';
-import ScrollToTop from './Scrolltotop.js';
 
 
 function Main() {
     return (
         <React.Fragment>
-            <ScrollToTop/>
             <Header />
             <Switch>
                 <Route path='/home' component={Home} />

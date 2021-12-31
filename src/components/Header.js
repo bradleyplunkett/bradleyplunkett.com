@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 function Header() {
     return (
         <header className='App-header'>
-            <Link to='#scrolltobottom'>scroll to bottom</Link>
+            <Link>scroll to bottom</Link>
         </header>
     )
 }

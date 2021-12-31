@@ -13,7 +13,7 @@ function Home() {
 
             
 
-            <p id ='scrolldowntest'> 
+            <p> 
                     'I should appear if you click the button that scrolls here!'
                 </p>
         </React.Fragment>
