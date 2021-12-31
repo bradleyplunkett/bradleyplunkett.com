@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.5260a01b.css",
-    "main.js": "/static/js/main.ea9e761a.js",
+    "main.css": "/static/css/main.1fec210b.css",
+    "main.js": "/static/js/main.11c18d0b.js",
     "static/js/787.9b9c0edf.chunk.js": "/static/js/787.9b9c0edf.chunk.js",
     "static/media/milky-way-mid.jpg": "/static/media/milky-way-mid.ed4a1ccacc08eb609e56.jpg",
     "index.html": "/index.html",
-    "main.5260a01b.css.map": "/static/css/main.5260a01b.css.map",
-    "main.ea9e761a.js.map": "/static/js/main.ea9e761a.js.map",
+    "main.1fec210b.css.map": "/static/css/main.1fec210b.css.map",
+    "main.11c18d0b.js.map": "/static/js/main.11c18d0b.js.map",
     "787.9b9c0edf.chunk.js.map": "/static/js/787.9b9c0edf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5260a01b.css",
-    "static/js/main.ea9e761a.js"
+    "static/css/main.1fec210b.css",
+    "static/js/main.11c18d0b.js"
   ]
 }
