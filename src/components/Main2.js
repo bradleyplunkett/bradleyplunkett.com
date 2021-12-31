@@ -1,6 +1,5 @@
 import React from 'react'
 import PlanetComponent from './SunandPlanets.js';
-import Link from 'react-scroll'
 import Contact from './ContactForm.js';
 
 function Home() {
@@ -12,7 +11,8 @@ function Home() {
                 </div>
             </div>
 
-            {/* <Link className = 'contactClass' to= 'contact' smooth = {true} duration = {1000}>Contact</Link> */}
+            <Contact/>
+
         </React.Fragment>
     )
 }

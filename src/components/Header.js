@@ -7,7 +7,8 @@ import { Link } from 'react-router-dom'
 function Header() {
     return (
         <header className='App-header'>
-            <Link>scroll to bottom</Link>
+            <p>I am the header component.</p>
+            <Link className='contactClass' to='contact' smooth={true} duration={1000}>Contact</Link>
         </header>
     )
 }

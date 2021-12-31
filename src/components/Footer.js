@@ -7,7 +7,7 @@ function Footer() {
     return (
         <footer className='App-footer'>
              <p>
-                'I should appear if you click the button that scrolls here!'
+                'I am the footer!'
             </p>
         </footer>
     )

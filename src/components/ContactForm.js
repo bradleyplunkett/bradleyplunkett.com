@@ -2,11 +2,10 @@ import React from 'react'
 import '../App.css'; //may not need this since this is already on App.js
 
 const Contact = () => {
-    return(
+    return (
         <div>
-            <p className = "contactClass" id = "contact"> 
-                You made it!
-            </p>
+            <p className="contactClass" id="contact">
+                I am the contact component!            </p>
         </div>
 
 

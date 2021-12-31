@@ -1,6 +1,5 @@
 import './App.css';
-import PlanetComponent from './components/SunandPlanets';
-import Main from './components/Routes';
+import Main from './components/Main1';
 import { BrowserRouter } from 'react-router-dom'
 
 function App() {

@@ -3,9 +3,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 25px;
-  max-height: 25px;
+  background-color: lightblue;
+  min-height: 500px;
+  max-height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,7 +29,9 @@
 .contactClass {
   min-height: 100px;
   max-height: 100px;
-  color: red
+  color: black;
+  background-color: lightgreen;
+
 }
 
 .planetContainer {
