@@ -1,11 +1,13 @@
 import React from 'react'
 import '../App.css';
+import { Link } from 'react-router-dom'
+
 
 
 function Header() {
     return (
         <header className='App-header'>
-            <p>Click the Sun. </p>
+            <Link to='#scrolldowntest'>scroll down</Link>
         </header>
     )
 }

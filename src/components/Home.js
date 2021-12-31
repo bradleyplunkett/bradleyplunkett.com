@@ -11,8 +11,12 @@ function Home() {
                 </div>
             </div>
 
-            <Link to = '/portfolio'> Click here to go to my portfolio</Link>
+            
 
+            <Link to = '/portfolio'> Click here to go to my portfolio</Link>
+            <p id ='scrolldowntest'> 
+                    'Scroll down to see me!'
+                </p>
         </React.Fragment>
     )
 }
