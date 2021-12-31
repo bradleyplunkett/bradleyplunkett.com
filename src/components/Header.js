@@ -1,14 +1,20 @@
 import React from 'react'
 import '../App.css';
-import { Link } from 'react-router-dom'
 
 
 
 function Header() {
+    function handleContactClick (){
+        const el = document.getElementById('contact');
+        el.scrollIntoView({behavior: "smooth"})
+    }
+
     return (
         <header className='App-header'>
             <p>I am the header component.</p>
-            <Link className="contactClass" to="contact" >Contact</Link>
+            {/* <a className="contactClass" href="#contact" >Contact</a> */}
+            <a className="contactClass" onClick={handleContactClick} >Contact</a>
+
         </header>
     )
 }
