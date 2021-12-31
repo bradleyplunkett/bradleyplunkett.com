@@ -13,9 +13,8 @@ function Home() {
 
             
 
-            <Link to = '/portfolio'> Click here to go to my portfolio</Link>
             <p id ='scrolldowntest'> 
-                    'Scroll down to see me!'
+                    'I should appear if you click the button that scrolls here!'
                 </p>
         </React.Fragment>
     )

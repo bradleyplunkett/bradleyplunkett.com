@@ -14,6 +14,18 @@
   color: white;
 }
 
+.App-footer {
+  background-color: yellow;
+  min-height: 100px;
+  max-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: white;
+}
+
 .planetContainer {
   margin: 0; 
   height: 100vh;
@@ -27,8 +39,16 @@
   padding-top: 200px;
 }
 
-#scrolldowntest {
-  color: red;
+#scrolltobottom {
+  position: fixed;
+  bottom: 12px;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: red;
+  color: white;
+
 }
 
 .App-logo {
