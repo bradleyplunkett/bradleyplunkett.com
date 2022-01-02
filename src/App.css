@@ -28,9 +28,9 @@
 }
 
 .myWorkClass {
-  min-height: 500px;
-  max-height: 500px;
-  background-color:red;
+  min-height: 2500px;
+  max-height: 2500px;
+  background-color: orangered;
   color: black;
 }
 
@@ -69,7 +69,14 @@
 
 .wonderfulFlowers {
   display: flex;
-  
+  height: 40%;
+  width: 40%
+}
+
+.ourCity {
+  display: flex;
+  height: 40%;
+  width: 40%
 }
 
 .App-logo {
