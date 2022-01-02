@@ -1,10 +1,15 @@
-/* eslint-disable no-useless-concat */
 import React, { Component } from 'react';
 import { Planet } from 'react-planet';
 import { Link } from 'react-router-dom'
 
 
 class PlanetComponent extends Component {
+
+	 handleResumeClick (){
+        const el = document.getElementById('contact')
+        el.scrollIntoView({behavior: "smooth"})
+    }
+
 	render() {
 		return (
 			<Planet
@@ -28,7 +33,7 @@ class PlanetComponent extends Component {
 				tension={500}
 				friction={30}
 			>
-				<div
+				<div onClick={this.handleResumeClick.bind(this)}
 					style={{
 						height: 100,
 						width: 100,
@@ -36,7 +41,7 @@ class PlanetComponent extends Component {
 						backgroundColor: '#94b0da',
 						backgroundImage: "url(" + "https://media.istockphoto.com/photos/rocky-surface-picture-id607274254" + ")"
 					}}
-				>  <Link to='/portfolio'> Click here to go to my portfolio</Link>
+				>  
 				</div>
 				<div
 					style={{

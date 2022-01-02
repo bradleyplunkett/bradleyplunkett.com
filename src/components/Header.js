@@ -5,7 +5,7 @@ import '../App.css';
 
 function Header() {
     function handleContactClick (){
-        const el = document.getElementById('contact');
+        const el = document.getElementById('contact')
         el.scrollIntoView({behavior: "smooth"})
     }
 
