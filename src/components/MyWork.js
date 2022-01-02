@@ -1,15 +1,15 @@
 import React from 'react'
 import '../App.css'; //may not need this since this is already on App.js
 
-const Contact = () => {
+const MyWork = () => {
     return (
-        <section className="contactClass" id="contact">
+        <section className="myWorkClass" id="myWork">
             <div>
                 <p >
-                    I am the contact component!            </p>
+                    This is where you can view my work.            </p>
             </div>
         </section>
     )
 }
 
-export default Contact
+export default MyWork

@@ -13,7 +13,6 @@ function Header() {
         <header className='App-header'>
             <p>I am the header component.</p>
             {/* <a className="contactClass" href="#contact" >Contact</a> */}
-            <a className="contactClass" onClick={handleContactClick} >Contact</a>
 
         </header>
     )

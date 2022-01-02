@@ -1,6 +1,8 @@
 import React from 'react'
 import PlanetComponent from './SunandPlanets.js';
-import Contact from './ContactForm.js';
+import MyWork from './MyWork.js';
+import MyRuns from './MyRuns.js';
+import MyResume from './MyResume.js';
 
 function Home() {
     return (
@@ -11,7 +13,9 @@ function Home() {
                 </div>
             </div>
 
-            <Contact/>
+            <MyWork/>
+            <MyRuns/>
+            <MyResume/>
 
         </React.Fragment>
     )

@@ -6,8 +6,18 @@ import '../App.css'; //may not need this since this is already on App.js
 
 class PlanetComponent extends Component {
 
-	handleResumeClick() {
-		const el = document.getElementById('contact')
+	handleMyWorkClick() {
+		const el = document.getElementById('myWork')
+		el.scrollIntoView({ behavior: "smooth" })
+	}
+
+	handleMyResumeClick() {
+		const el = document.getElementById('myResume')
+		el.scrollIntoView({ behavior: "smooth" })
+	}
+
+	handleMyRunsClick() {
+		const el = document.getElementById('myRuns')
 		el.scrollIntoView({ behavior: "smooth" })
 	}
 
@@ -36,7 +46,7 @@ class PlanetComponent extends Component {
 				tension={500}
 				friction={30}
 			>
-				<div onClick={this.handleResumeClick.bind(this)} 
+				<div onClick={this.handleMyWorkClick.bind(this)} 
 					style={{
 						height: 100,
 						width: 100,
@@ -49,7 +59,7 @@ class PlanetComponent extends Component {
 				>
 					
 				</div>
-				<div
+				<div onClick={this.handleMyRunsClick.bind(this)} 
 					style={{
 						height: 100,
 						width: 100,
@@ -61,7 +71,7 @@ class PlanetComponent extends Component {
 
 					}}
 				/>
-				<div
+				<div onClick={this.handleMyResumeClick.bind(this)} 
 					style={{
 						height: 100,
 						width: 100,
