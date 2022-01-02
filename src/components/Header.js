@@ -11,7 +11,7 @@ function Header() {
 
     return (
         <header className='App-header'>
-            <p>I am the header component.</p>
+            <p>"I am putting myself to the fullest possible use, which is all I think that any conscious entity can ever hope to do" - HAL 9000</p>
             {/* <a className="contactClass" href="#contact" >Contact</a> */}
 
         </header>
