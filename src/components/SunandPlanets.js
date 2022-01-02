@@ -22,7 +22,9 @@ class PlanetComponent extends Component {
 							borderRadius: '50%',
 							backgroundColor: 'white',
 							backgroundImage: "url(" + "http://www.nasa.gov/sites/default/files/canyon-fire_0.jpg" + ")",
-							backgroundSize: 'cover'
+							backgroundSize: 'cover',
+							cursor: 'pointer'
+
 						}}
 					/>
 				}
@@ -40,10 +42,9 @@ class PlanetComponent extends Component {
 						width: 100,
 						borderRadius: '50%',
 						backgroundColor: '#94b0da',
-						backgroundImage: 'url(' + require('../codingpic.png') + ')',
-						backgroundSize: 'cover'
-
-						
+						backgroundImage: 'url(' + require('../keyboardpic.png') + ')',
+						backgroundSize: 'cover',
+						cursor: 'pointer'
 					}}
 				>
 					
@@ -53,7 +54,11 @@ class PlanetComponent extends Component {
 						height: 100,
 						width: 100,
 						borderRadius: '50%',
-						backgroundColor: '#dcedff',
+						backgroundColor: '#94b0da',
+						backgroundImage: 'url(' + require('../runningpic.png') + ')',
+						backgroundSize: 'cover',
+						cursor: 'pointer'
+
 					}}
 				/>
 				<div
@@ -61,8 +66,11 @@ class PlanetComponent extends Component {
 						height: 100,
 						width: 100,
 						borderRadius: '50%',
-						backgroundColor: '#dcedff',
-						backgroundImage: "url(" + "https://s3.envato.com/files/243604517/preview.jpg" + ")"
+						backgroundColor: '#94b0da',
+						backgroundImage: 'url(' + require('../headshotpic.png') + ')',
+						backgroundSize: 'cover',
+						cursor: 'pointer'
+
 					}}
 				/>
 			</Planet>
