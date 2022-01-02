@@ -7,8 +7,7 @@ function Footer() {
     return (
         <footer className='App-footer'>
              <p>
-                'I am the footer!'
-            </p>
+This site designed by Brad Plunkett            </p>
         </footer>
     )
 }

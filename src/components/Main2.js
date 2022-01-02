@@ -14,8 +14,9 @@ function Home() {
             </div>
 
             <MyWork/>
-            <MyRuns/>
             <MyResume/>
+            <MyRuns/>
+
 
         </React.Fragment>
     )

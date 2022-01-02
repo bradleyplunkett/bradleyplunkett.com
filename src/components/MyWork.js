@@ -6,7 +6,8 @@ const MyWork = () => {
         <section className="myWorkClass" id="myWork">
             <div>
                 <p >
-                    This is where you can view my work.            </p>
+                    My Projects           </p>
+                    <img className = 'wonderfulFlowers' src = {'url(' + require('../keyboardpic.png') + ')'} alt = 'wonderfulFlowers'></img>
             </div>
         </section>
     )
