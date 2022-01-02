@@ -35,10 +35,14 @@
 }
 
 .myResumeClass {
-  min-height: 500px;
-  max-height: 500px;
-  background-color:blue;
+  min-height: 1180px;
+  max-height: 100px;
+  background-color:black;
   color: black;
+}
+
+.ResumeContainer {
+  margin-left: 500px;
 }
 
 .myRunsClass {
@@ -60,6 +64,7 @@
   display: flex;
   padding-left: 800px;
   padding-top: 300px;
+  
 }
 
 .App-logo {
