@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import { Planet } from 'react-planet';
 import { Link } from 'react-router-dom'
+import '../App.css'; //may not need this since this is already on App.js
 
 
 class PlanetComponent extends Component {
 
-	 handleResumeClick (){
-        const el = document.getElementById('contact')
-        el.scrollIntoView({behavior: "smooth"})
-    }
+	handleResumeClick() {
+		const el = document.getElementById('contact')
+		el.scrollIntoView({ behavior: "smooth" })
+	}
 
 	render() {
 		return (
@@ -33,29 +34,32 @@ class PlanetComponent extends Component {
 				tension={500}
 				friction={30}
 			>
-				<div onClick={this.handleResumeClick.bind(this)}
+				<div onClick={this.handleResumeClick.bind(this)} 
 					style={{
 						height: 100,
 						width: 100,
 						borderRadius: '50%',
 						backgroundColor: '#94b0da',
-						backgroundImage: "url(" + "https://media.istockphoto.com/photos/rocky-surface-picture-id607274254" + ")"
+						backgroundImage: 'url(' + require('../codingpic.png') + ')',
+						backgroundSize: 'cover'
+
+						
 					}}
-				>  
+				>
+					
 				</div>
 				<div
 					style={{
-						height: 50,
-						width: 50,
+						height: 100,
+						width: 100,
 						borderRadius: '50%',
 						backgroundColor: '#dcedff',
-						backgroundImage: "url(" + "https://www.gardeningknowhow.com/wp-content/uploads/2013/06/moss.jpg" + ")"
 					}}
 				/>
 				<div
 					style={{
-						height: 75,
-						width: 75,
+						height: 100,
+						width: 100,
 						borderRadius: '50%',
 						backgroundColor: '#dcedff',
 						backgroundImage: "url(" + "https://s3.envato.com/files/243604517/preview.jpg" + ")"
