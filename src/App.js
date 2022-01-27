@@ -1,5 +1,5 @@
 import './App.css';
-import Main from './components/Main1';
+import Main from './components/Main';
 import { BrowserRouter } from 'react-router-dom'
 
 function App() {
@@ -7,11 +7,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Main></Main>
-
       </BrowserRouter>
-
     </div>
-
   );
 }
 

@@ -4,7 +4,7 @@ import '../App.css';
 import Header from './Header.js';
 import Footer from './Footer.js';
 import Portfolio from './Portfolio.js';
-import Home from './Main2.js';
+import Home from './Home.js';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom/cjs/react-router-dom.min';
 import Link from 'react-scroll'
 
